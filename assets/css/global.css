@@ -18,9 +18,11 @@
     /* Produto */
     --brand-color-light: #60A5FA;
     --brand-color-dark: #1D4ED8;
+    
     /* Base */
     --bg-color: #0F172A;
     --stroke-color: #1E293B;
+    
     /* Textos */
     --text-color-primary: #F1F5F9;
     --text-color-secondary: #CBD5E1;
@@ -68,7 +70,9 @@ img {
     margin-top: 40px;
     row-gap: 80px;
     column-gap: 32px;
+
     grid-template-columns: 2fr 1.5fr;
+    
     grid-template-areas: 
         "featured featured" 
         "weekly weekly"

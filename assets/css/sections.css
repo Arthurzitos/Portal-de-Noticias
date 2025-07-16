@@ -38,7 +38,7 @@ section header{
         position: absolute;
         inset: 0;
         top: 50%;
-        background: linear-gradient(180deg, transparent, #020617 100%);
+        background: linear-gradient(180deg, transparent 0%, #020617 100%);
 
     }
     figcaption {
@@ -58,6 +58,7 @@ section header{
 
 #weekly {
     grid-area: weekly;
+
     &>div {
         grid-template-columns: repeat(4, 292px);
     }
@@ -93,7 +94,7 @@ section header{
     }
 
     h3 {
-        margin-block: 8px;
+        margin-block: 8px 4px;
     }
 }
 
@@ -108,6 +109,7 @@ aside {
     h3 {
         margin-top: 8px;
     }
+    
     img{
         width: 72px;
         aspect-ratio: 1/1;
